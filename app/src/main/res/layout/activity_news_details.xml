@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsDetails">
+
+    <ImageView
+        android:id="@+id/imageView_detail"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/putramosque"
+        android:scaleType="centerCrop"/>
+   <ScrollView
+       android:id="@+id/scrollview"
+       android:layout_below="@id/imageView_detail"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_margin="10dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:id="@+id/textView_title"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/montserrat_bold"
+               android:textSize="25sp"
+               android:text="News Title" />
+
+           <TextView
+               android:id="@+id/textView_date"
+               android:layout_width="match_parent"
+               android:fontFamily="@font/montserrat_bold"
+               android:textSize="20sp"
+               android:layout_height="wrap_content"
+               android:text="News Date" />
+
+           <TextView
+               android:id="@+id/textView_description"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="start"
+               android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+       </LinearLayout>
+   </ScrollView>
+</RelativeLayout>

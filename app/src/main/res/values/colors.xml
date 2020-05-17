@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1c5db7</color>
+    <color name="colorPrimaryDark">#1c5db7</color>
+    <color name="colorAccent">#ff6441</color>
+    <color name="orange_light">#ff6441</color>
+    <color name="offwhite">#E0E8F4</color>
+    <color name="idle_dot">#662D9CDB</color>
+    <color name="ob_header">#4A4A4A</color>
+    <color name="ob_desc">#4A4A4A</color>
+    <color name="blue">#3F3D56</color>
+    <color name="orange">#FF6347</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffff</color>
+    <color name="blue_">#1c5db7</color>
+    <color name="lightblue">#25aff3</color>
+    <color name="red">#ff3737</color>
+</resources>

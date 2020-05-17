@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    xmlns:android1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/rl_one_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/v_one_login"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/putramosque"
+                android:scaleType="centerCrop"/>
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            android:id="@+id/cv_one_login"
+            app:cardBackgroundColor="#fcfcfc"
+            android:layout_marginTop="220dp"
+            app:cardCornerRadius="10dp"
+            android:elevation="10dp"
+            app:contentPadding="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linearlayout2"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3" >
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_location_on_black_24dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mosque Name"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/montserrat_bold"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mosque Locatiom"/>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:id="@+id/editbutton"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/edit"
+                            android:background="@color/blue_" />
+
+                        <ImageButton
+                            android:background="@color/lightblue"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            app:srcCompat="@drawable/share"
+                            android:layout_toEndOf="@+id/editbutton"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/blue"
+                    android:layout_below="@id/linearlayout2"/>
+                <LinearLayout
+                    android:id="@+id/linearlayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@id/view1">
+
+
+                    <TextView
+                        android:id="@+id/textView_pryertime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android1:text="Next Prayer (-1: 09 : 10)"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:gravity="center"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android1:id="@+id/textView_nmaztime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android1:text="ASR - 15:30"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:background="#1c5db7"
+                        android:weightSum="2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:textColor="#ffffff"
+                            android:padding="5dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:layout_width="wrap_content"
+                            android:text="DAY'S PRAYERS TIME"
+                            android:layout_height="wrap_content"/>
+                        <ImageView
+                            android:padding="5dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_date_range_black_24dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="30dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/relativeLayout1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="#1c5db7">
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="FAJR"
+                            android:textColor="#ffffff" />
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="05:05 AM"
+                            android:textColor="#ffffff" />
+
+
+                        <ImageView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_alarm_on_black_24dp" />
+
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="#1c5db7">
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="SUNRISE"
+                            android:textColor="#ffffff" />
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="05:05 AM"
+                            android:textColor="#ffffff" />
+
+
+                        <ImageView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="right"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_alarm_on_black_24dp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="#1c5db7">
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="DHUHAR"
+                            android:textColor="#ffffff" />
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="05:05 AM"
+                            android:textColor="#ffffff" />
+
+
+                        <ImageView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_alarm_on_black_24dp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="#ffffff">
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="ASAR"
+                            android:textColor="#1c5db7" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="05:05 AM"
+                            android:textColor="#1c5db7"/>
+
+
+                        <ImageView
+                            android:id="@+id/runnerup"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_alarm_on_black_24dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="#1c5db7">
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="MAGHRIB"
+                            android:textColor="#ffffff"/>
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="05:05 AM"
+                            android:textColor="#ffffff"/>
+
+                        <ImageView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_alarm_on_black_24dp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="#1c5db7">
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="ISHA"
+                            android:textColor="#ffffff" />
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="05:05 AM"
+                            android:textColor="#ffffff"/>
+
+                        <ImageView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_alarm_on_black_24dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout></ScrollView>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Prayer App</string>
+    <string name="appname">FOLLOW YOUR MASJID</string>
+    <string name="app_sub_name">PDF Editor Office Files Viewer and PDF Converter</string>
+    <string name="ob_header1">Roshnee Prayer Time</string>
+    <string name="ob_header2">FOLLOW YOUR MASJID</string>
+    <string name="ob_header3">GET NOTIFIED </string>
+    <string name="ob_get_started">GET STARTED</string>
+    <string name="ob_desc1">We hope that this app will make tha process of keeping up to date with prayer times easier for our community.</string>
+    <string name="ob_desc2">You`ll be able to set a primary masjid that you`ve notifications for and have Diapa taland around.</string>
+    <string name="ob_desc3">Set up reminders get notified when times are changing, get the latest news and much more.</string>
+    <string name="title_activity_bottom_bar">bottom_bar</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="clickhere"><u>Click Here</u>.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
