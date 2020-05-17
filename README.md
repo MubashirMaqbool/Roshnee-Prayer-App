@@ -1,6 +1,6 @@
 ![Screenshot_2020-05-17-16-23-32-570_com roshneeprayer](https://user-images.githubusercontent.com/48803229/82143745-948ff980-985f-11ea-9679-5feccb7fde03.jpg)
-![Screenshot_2020-05-17-16-24-10-393_com roshneeprayer](https://user-images.githubusercontent.com/48803229/82143736-8fcb4580-985f-11ea-91f0-841861a9e7d4.jpg)
 ![Screenshot_2020-05-17-16-23-39-076_com roshneeprayer](https://user-images.githubusercontent.com/48803229/82143755-978aea00-985f-11ea-840a-a3d4705c3dec.jpg)
+![Screenshot_2020-05-17-16-24-10-393_com roshneeprayer](https://user-images.githubusercontent.com/48803229/82143736-8fcb4580-985f-11ea-91f0-841861a9e7d4.jpg)
 ![Screenshot_2020-05-17-16-23-44-779_com roshneeprayer](https://user-images.githubusercontent.com/48803229/82143762-98bc1700-985f-11ea-8c8f-a252be4e3bee.jpg)
 ![Screenshot_2020-05-17-16-23-59-020_com roshneeprayer](https://user-images.githubusercontent.com/48803229/82143768-99ed4400-985f-11ea-9605-24c331f51a8f.jpg)
 ![Screenshot_2020-05-17-16-24-04-232_com roshneeprayer](https://user-images.githubusercontent.com/48803229/82143775-9c4f9e00-985f-11ea-98f4-616fb118bc42.jpg)
